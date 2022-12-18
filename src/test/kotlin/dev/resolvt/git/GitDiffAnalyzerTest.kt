@@ -1,4 +1,4 @@
-package dev.ithurts.git
+package dev.resolvt.git
 
 import io.reflectoring.diffparser.api.UnifiedDiffParser
 import io.reflectoring.diffparser.api.model.Diff
@@ -9,8 +9,8 @@ import org.mockito.kotlin.anyOrNull
 
 
 class GitDiffAnalyzerTest {
-    val hunkResolvingStrategy = mock(HunkResolvingStrategy::class.java)
-    val gitDiffAnalyzer = GitDiffAnalyzer(hunkResolvingStrategy)
+    private val hunkResolvingStrategy = mock(HunkResolvingStrategy::class.java)
+    private val gitDiffAnalyzer = GitDiffAnalyzer(hunkResolvingStrategy)
 
 
     @Test

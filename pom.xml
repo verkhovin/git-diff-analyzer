@@ -3,12 +3,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dev.ithurts</groupId>
+    <groupId>dev.resolvt</groupId>
     <artifactId>git-diff-analyzer</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>dev.ithurts git-diff-analyzer</name>
+    <name>dev.resolvt git-diff-analyzer</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -81,5 +81,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>repsy</id>
+            <name>RepsyRepo</name>
+            <url>https://repo.repsy.io/mvn/verkhovin/default</url>
+        </repository>
+    </distributionManagement>
 
 </project>

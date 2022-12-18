@@ -1,7 +1,7 @@
-package dev.ithurts.git
+package dev.resolvt.git
 
-import dev.ithurts.application.internal.diff.git.Diffs.ONE_LINE_ADDED
-import dev.ithurts.application.internal.diff.git.Diffs.TWO_LINES_ADDED
+import dev.resolvt.application.internal.diff.git.Diffs.ONE_LINE_ADDED
+import dev.resolvt.application.internal.diff.git.Diffs.TWO_LINES_ADDED
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 

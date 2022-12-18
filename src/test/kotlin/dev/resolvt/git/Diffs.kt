@@ -1,4 +1,4 @@
-package dev.ithurts.application.internal.diff.git
+package dev.resolvt.application.internal.diff.git
 
 import io.reflectoring.diffparser.api.UnifiedDiffParser
 import io.reflectoring.diffparser.api.model.Diff

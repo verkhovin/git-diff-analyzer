@@ -1,4 +1,4 @@
-package dev.ithurts.git
+package dev.resolvt.git
 
 import io.reflectoring.diffparser.api.model.Line
 

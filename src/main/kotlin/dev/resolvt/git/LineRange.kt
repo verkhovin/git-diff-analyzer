@@ -1,4 +1,4 @@
-package dev.ithurts.git
+package dev.resolvt.git
 
 typealias LineRange = Pair<Int, Int>
 

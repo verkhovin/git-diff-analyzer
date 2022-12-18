@@ -1,6 +1,6 @@
-package dev.ithurts.git
+package dev.resolvt.git
 
-import dev.ithurts.git.DiffDirection.*
+import dev.resolvt.git.DiffDirection.*
 import io.reflectoring.diffparser.api.model.Diff
 import io.reflectoring.diffparser.api.model.Range
 
